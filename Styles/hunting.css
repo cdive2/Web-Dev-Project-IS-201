@@ -1,0 +1,44 @@
+/* hunting.css */
+
+/* Body and background */
+body {
+    background-color: #f0f8ff; /* light blue for outdoors theme */
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+
+/* Header */
+.header {
+    background-color: #2e4a2e; /* dark green */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Section styling */
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Images */
+.hunt-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #2e4a2e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

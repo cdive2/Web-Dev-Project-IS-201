@@ -1,0 +1,178 @@
+<!--Clayton Divelbiss  - WebDev Project - Section 001 - 12/10/25-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clayton Divelbiss - Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .resume-section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        .resume-subtitle {
+            font-weight: 600;
+        }
+        .headshot-img {
+            border-radius: 8px;
+            max-width: 160px;
+        }
+        .no-blue-link {
+            color: inherit;         /* takes parent color */
+            text-decoration: none;  /* remove underline */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../Index.html">Clayton Divelbiss</a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div 
+                class="collapse navbar-collapse justify-content-end" 
+                id="navbarNav"
+            >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Aboutme.html">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <div class="container mt-5 mb-5">
+
+        <!-- HEADER AREA -->
+        <div class="row align-items-center">
+            <div class="col-md-3 text-center mb-3">
+                <img src="../Images/Clayton.jpg" class="img-fluid headshot-img" alt="Clayton Divelbiss">
+            </div>
+
+            <div class="col-md-9">
+                <h1 class="fw-bold">Clayton Divelbiss</h1>
+                <h5 class="text-muted">Structural Engineering Intern – Acute Engineering</h5>
+                <p class="mb-0">744 S 400 E, Orem, UT 84097</p>
+                <p class="mb-0">
+                    <a href="https://www.linkedin.com/in/clayton-divelbiss/" target="_blank" class="no-blue-link">
+                        See My LinkedIn Profile
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- MISSION STATEMENT -->
+        <div class="resume-section-title">Mission Statement</div>
+        <p>
+            My goal is to grow as a structural engineer through continuous learning, thoughtful
+            collaboration, and hands-on experience, striving to deliver exceptional, responsible,
+            and forward-thinking designs.
+        </p>
+
+        <!-- EDUCATION SECTION -->
+        <div class="resume-section-title">Education</div>
+        <ul>
+            <li class="resume-subtitle">
+                Brigham Young University — BS Civil Engineering, Minor in Business (Dec 2026)
+            </li>
+            <ul>
+                <li>GPA: 3.55</li>
+                <li>Relevant Coursework:
+                    <ul>
+                        <li>Statics</li>
+                        <li>CAD Design</li>
+                        <li>Mechanics of Materials</li>
+                        <li>Structural Analysis</li>
+                        <li>Structural Steel Design</li>
+                        <li>Reinforced Concrete Design</li>
+                        <li>Soil Mechanics</li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+
+        <!-- EXPERIENCE SECTION -->
+        <div class="resume-section-title">Experience</div>
+        <ul>
+            <li class="resume-subtitle">Acute Engineering — Intern (May 2025–Present), Provo, UT</li>
+            <ul>
+                <li>Perform structural calculations for vertical and lateral loading of homes</li>
+                <li>Use AutoCAD and Bluebeam to create structural plans and reports</li>
+                <li>Draft and create RFIs for contractors</li>
+            </ul>
+
+            <li class="resume-subtitle">BYU Architecture — Drafter (Jan 2024–Apr 2025), Provo, UT</li>
+            <ul>
+                <li>Created Revit plans for 100+ remodels</li>
+                <li>Performed site visits to verify construction accuracy</li>
+                <li>Generated base plans for an elementary school acquisition</li>
+            </ul>
+
+            <li class="resume-subtitle">Kapur Engineering — Intern (May 2023–Aug 2023), Milwaukee, WI</li>
+            <ul>
+                <li>Inspected construction for two bridges and three miles of roadway</li>
+                <li>Analyzed blueprints and ensured proper construction practices</li>
+                <li>Documented progress and communicated with contractors</li>
+            </ul>
+        </ul>
+
+        <!-- SKILLS SECTION -->
+        <div class="resume-section-title">Skills</div>
+        <ul>
+            <li>AutoCAD</li>
+            <li>Revit</li>
+            <li>RISA</li>
+            <li>Problem Solving</li>
+            <li>Database Management</li>
+            <li>ER Diagramming</li>
+            <li>SQL</li>
+            <li>Tableau</li>
+            <li>Excel (Solver, Pivot Tables, Charts)</li>
+            <li>HTML, CSS, Bootstrap</li>
+            <li>Flow Chart Diagramming</li>
+            <li>VBA Programming</li>
+        </ul>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3 bg-light mt-5 shadow-sm">
+        © 2025 Clayton Divelbiss
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
